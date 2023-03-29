@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="styleForm.css" />
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <meta name="viewport" content="widht=device-wight, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bd3bd3a323.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>Valida tu compra</h1>
+    <form class="form" action="/form" method="post">
+        <img src="image/buy.png"/>
+        <div class="form__section">
+            <label for="card">N° de tarjeta</label>
+            <input class="form__input" id="card" name="card" placeholder="1234..."/>
+        </div>
+        <div class="form__section">
+            <label for="ed">Fecha de expiración</label>
+            <input class="form__input" id="ed" name="ed" placeholder="12/23"/>
+        
+        </div >
+        <div class="form__section">
+            <label for="cvv">CVV</label>
+            <input class="form__input" id="cvv" name="cvv" placeholder="123"/>
+        </div>
+        <button type="button" id="validate" onclick="validator(document.getElementById(card).value)">Comprar</button>
+    </form>
+</body>
+</html>

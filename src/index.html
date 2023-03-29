@@ -1,14 +1,155 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <meta name="viewport" content="widht=device-wight, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bd3bd3a323.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>¡Bienvenido!</h1>
+      <h2>Obras originales de mi cerdito</h2>
+    </header>
+    <main>
+      <div class="flex__container">
+        <video controls>
+          <source src="image/work.mp4" type="video/mp4">
+        </video>
+      </div>
+      <h3>Elige tu favorito y valida tu compra</h3>
+      <section class="grid__container">
+        <div class="grid__item">
+          <div class="grid__item--img">
+            <a href="form.html">
+              <img src="image/name.jpeg" alt="Nombre y planta" onclick="location.href='form.htm';"/>
+            </a>
+          </div>
+          <div class="description">
+            Nombre y planta
+            3cm
+            $2.00
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__item--img">
+            <a href="form.html">
+              <img src="image/carrot.jpeg" alt="Chanchito con zanahoria" onclick="location.href='form.htm';">
+            </a>
+          </div>
+          <div class="description">
+            Chanchito con zanahoria
+            3cm
+            $2.00
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__item--img">
+            <a href="form.html">
+              <img src="image/astronaut.jpeg" alt="Astronauta"onclick="location.href='form.htm';">
+            </a>
+          </div>
+          <div class="description">
+            Astronauta
+            3cm
+            $2.00
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__item--img">
+            <a href="form.html">
+              <img src="image/bird.jpeg" alt="Pajarito"onclick="location.href='form.htm';">
+            </a>
+          </div>
+          <div class="description">
+            Pajarito
+            3cm
+            $2.00
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__item--img">
+            <a href="form.html">
+              <img src="image/chicken.jpeg" alt="Pollo"onclick="location.href='form.htm';">
+            </a>
+          </div>
+          <div class="description">
+            Pollo
+            3cm
+            $2.00
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__item--img">
+            <a href="form.html">
+              <img src="image/pig.jpeg" alt="Chanchito"onclick="location.href='form.htm';">
+            </a>
+          </div>
+          <div class="description">
+            Chanchito
+            3cm
+            $2.00
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__item--img">
+            <a href="form.html">
+              <img src="image/birdwithhat.jpeg" alt="Pajarito con sombrero"onclick="location.href='form.htm';">
+            </a>
+          </div>
+          <div class="description">
+            Pajarito con sombrero
+            3cm
+            $2.00
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__item--img">
+            <a href="form.html">
+              <img src="image/yellowdog.jpeg" alt="Perrito amarillo"onclick="location.href='form.htm';">
+            </a>
+          </div>
+          <div class="description">
+            Perrito amarillo
+            3cm
+            $2.00
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__item--img">
+            <a href="form.html">
+              <img src="image/hamburger.jpeg" alt="Hamburguesa"onclick="location.href='form.htm';">
+            </a>
+          </div>
+          <div class="desccription">
+            Hamburguesa
+            3cm
+            $2.00
+          </div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__item--img">
+            <a href="form.html">
+              <img src="image/bluedog.jpeg" alt="Perrito azul"onclick="location.href='form.htm';">
+            </a>
+          </div>
+          <div class="tooltip">
+            Perrito azul
+            3cm
+            $2.00
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Derechos de Reservados</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
