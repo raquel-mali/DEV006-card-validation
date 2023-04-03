@@ -50,13 +50,30 @@ h3 {
 }
 
 .grid__container {
+    margin: 15px;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill,minmax(220px, 1fr));
+    grid-auto-rows: 160px;
     grid-gap: 15px;
 }
 
 .grid__item {
-    width: 100%;
-    height: 160px;
     object-fit: cover;
+}
+
+.grid__item:first-child {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.grid__item:nth-child(6) {
+    grid-row: span 2;
+}
+
+footer {
+    display: block;
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-bottom: 25px;
 }

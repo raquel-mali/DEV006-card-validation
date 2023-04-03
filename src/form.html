@@ -14,22 +14,34 @@
 </head>
 <body>
     <h1>Valida tu compra</h1>
-    <form class="form" action="/form" method="post">
-        <img src="image/buy.png"/>
-        <div class="form__section">
-            <label for="card">N° de tarjeta</label>
-            <input class="form__input" id="card" name="card" placeholder="1234..."/>
-        </div>
-        <div class="form__section">
-            <label for="ed">Fecha de expiración</label>
-            <input class="form__input" id="ed" name="ed" placeholder="12/23"/>
-        
-        </div >
-        <div class="form__section">
-            <label for="cvv">CVV</label>
-            <input class="form__input" id="cvv" name="cvv" placeholder="123"/>
-        </div>
-        <button type="button" id="validate" onclick="validator(document.getElementById(card).value)">Comprar</button>
-    </form>
+   <div class="flex-container">
+        <form class="form" action="/form" method="post">
+            <div clas="form-img">
+                <img src="image/buy.png" alt="carrito de compra"/>
+            </div>
+            <div class="form__section">
+                <label for="card">N° de tarjeta</label>
+                <input class="form__input" id="card" name="card" placeholder="1234..."/>
+            </div>
+            <br>
+            <div class="form__section">
+                <label for="ed">Fecha de expiración</label>
+                <input type="month" class="form__input" id="ed" name="ed">
+            </div >
+            <br>
+            <div class="form__section">
+                <label for="cvv">CVV</label>
+                <input class="form__input" id="cvv" name="cvv" placeholder="123"/>
+            </div>
+            <br>
+            <div class="form__section">
+                <label for="name">Nombre del titular de la tarjeta</label>
+                <input class="form__input" id="name" name="name" placeholder="RAQUEL MARIELA FERNANDEZ REATEGUI"/>
+            </div>
+            <br>
+            <button type="button" id="validate">Comprar</button>
+        </form>
+   </div>
+   <script type="module" src="index.js"></script>
 </body>
 </html>
