@@ -2,11 +2,11 @@
 
 ## Índice
 
-* [1. Card Validation - Tienda de esculturas](#1-Card Validation - Tienda de esculturas)
-* [2. Diseño](#2-Diseño)
-* [3. Modo de uso](#3-Modo de uso)
-* [4. Consideraciones generales](#4-Consideraciones generales)
-* [5. Tecnologías usadas](#5-Tecnologías usadas)
+* [1. Card Validation - Tienda de esculturas](#-Card Validation - Tienda de esculturas)
+* [2. Diseño](#-Diseño)
+* [3. Modo de uso](#-Modo de uso)
+* [4. Consideraciones generales](#-Consideraciones generales)
+* [5. Tecnologías usadas](#-Tecnologías usadas)
 ***
 
 ## 1. Card Validation - Tienda de esculturas
@@ -16,9 +16,9 @@ Este es un sitio para compras esculturas hechas con plastilina cuenta con un vid
 
 ## 2. Diseño
 
-![bienvenida y video](image/video.png)
-![galeria](image/video.png)
-![formulario](formulario.png)
+![bienvenida y video](src/image/video.png)
+![galeria](src/image/galeria.png)
+![formulario](src/image/form.png)
 Para el diseño se tomaron colores divertidos que se evoquen a un niño jugando, se hizo responsive design para que pueda ser vasto en tablet y celeulares porque es el formato que más consumen los niños.
 
 ## 3. Modo de uso
