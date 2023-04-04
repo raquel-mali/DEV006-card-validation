@@ -1,0 +1,115 @@
+body {
+    background-image: url('image/background.jpg');;
+}
+
+h1 {
+    padding: 25px;
+    text-align: center;
+    font-size: 500px;
+    font-family: Acme;
+    color: #051361ee;
+    text-shadow: -2px -2px 0px #fff, 2px -2px 0px #fff, -2px 2px 0px #fff, 2px 2px 0px #fff;
+    background-color: rgba(244, 220, 6, 0.971);
+}
+  
+.flex-container {
+    display: flex;
+    max-width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    background: #e7ef74e8;
+    margin: 70px 50px;
+    padding: 10px;
+    border: 14px solid transparent;
+    border-radius: 40px;
+    outline: 5px solid rgba(244, 220, 6, 0.971);
+    margin: auto;
+}
+
+.form {
+    min-width: 400px;
+    text-align: left;
+    min-width: 250px;
+    flex: 1;
+    padding: 30px;
+    order: 5;
+}
+
+form__section {
+    align-items: left;
+}
+
+br {
+    margin: 12px;
+}
+
+.form__input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    margin: 2px 0;
+    border: none;
+    border-bottom: 3px solid #e30a0a;
+    background: transparent;
+    color: ;
+    height: 20px;
+}
+   
+.form__input:focus {
+    background: linear-gradient(to bottom, transparent, #3f63b7);
+    outline: none;
+    border-bottom: 3px solid rgba(244, 220, 6, 0.971);
+    height: 20px;
+}
+
+.form-img {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 350px;
+    order: 2;
+}
+
+.form-img div {
+    padding: 10px;
+}
+
+.form input [type="submit"] {
+    background-color: rgba(244, 220, 6, 0.971);
+    border-bottom: none;
+    padding: 12px;
+}
+
+.form input [type="submit"]:hover {
+    background-color: rgb(8, 0, 253);
+    border-bottom: none;
+    padding: 12px;
+}
+.form input [type="submit"]:focus {
+    background-color: #e7ef74e8;
+}
+
+.form input [type="submit"]:active {
+    background: linear-gradient(to bottom, rgb(0, 24, 119), rgb(100, 117, 208));
+}
+
+label {
+    color: rgb(100, 117, 208);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#validate {
+    display: block;
+    padding: 8px;
+    margin: auto;
+    background:rgba(244, 220, 6, 0.971) ;
+    border-radius: 15px;
+    color: rgb(100, 117, 208);
+    font-weight: 400;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
